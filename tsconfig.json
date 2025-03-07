@@ -1,13 +1,12 @@
 {
-    "compilerOptions": {
-      "module": "NodeNext",
-      "moduleResolution": "NodeNext",
-      "target": "ES6",
-      "outDir": "dist",
-      "rootDir": "src",
-      "strict": true,
-      "esModuleInterop": true
-    },
-    "include": ["src"]
-  }
-  
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES6",
+    "outDir": "dist",  // المجلد الذي يجب أن يحتوي على الملفات المترجمة
+    "rootDir": "src",  // المجلد الذي يحتوي على ملفات TypeScript المصدر
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+}
